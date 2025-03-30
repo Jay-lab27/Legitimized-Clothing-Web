@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Legitimize Clothing</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <section class="auth-section">
+        <div class="auth-container">
+            <h2>Create Account</h2>
+            <form class="auth-form" id="registerForm">
+                <div class="form-group">
+                    <input type="text" id="fullName" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="registerEmail" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="registerPassword" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit" class="auth-btn">Sign Up</button>
+                <div class="auth-links">
+                    <span>Already have an account? <a href="login.html">Sign In</a></span>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="register.js"></script>
+</body>
+</html>

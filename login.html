@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Legitimize Clothing</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <section class="auth-section">
+        <div class="auth-container">
+            <h2>Welcome Back</h2>
+            <form class="auth-form" id="loginForm">
+                <div class="form-group">
+                    <input type="email" id="loginEmail" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="loginPassword" name="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="auth-btn">Sign In</button>
+                <div class="auth-links">
+                    <a href="register.html">Create Account</a>
+                    <a href="#forgot-password">Forgot Password?</a>
+                </div>
+            </form>
+            
+            <div class="social-login">
+                <p>Or continue with</p>
+                <div class="social-icons">
+                    <a href="#google" class="social-btn google">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#facebook" class="social-btn facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="login.js"></script>
+</body>
+</html>
